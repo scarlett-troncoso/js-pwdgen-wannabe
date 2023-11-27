@@ -26,8 +26,18 @@ Javascript, anzi no, con ECMAScript, anzi no, con ES6...
 
 //Chiedi all’utente il suo nome e lo salvo in una variabile
 const user_name = prompt ('Come ti chiami?');
-console.log(user_name);
+
 
 //poi chiedi il suo cognome
+const user_last_name = prompt ('Quale é il tuo cognome?');
+
 
 //poi chiedi il suo colore preferito
+const user_color = prompt ('Quale é il tuo colore preferito?');
+
+
+//Infine scrivi sulla pagina nomecognomecolorepreferito23
+
+
+
+console.log(user_name, user_last_name, user_color);
