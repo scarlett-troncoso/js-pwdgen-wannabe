@@ -18,9 +18,13 @@ Javascript, anzi no, con ECMAScript, anzi no, con ES6...
 */
 
 /* Tools
--prompt
--(variabile) const/let
--(per salvare quello che scrive lutente)backticks '${}'
+- prompt
+- const/let (variabile)
+- backticks '${}' (per salvare quello che scrive lutente)
+- document.getElementById('my_id').innerHTML (questo sarebbe per:)
+                                                            - document (elencare qualcosa in pagina)
+                                                            - getElementById (prendere e salvare qualcosa in pagina)
+                                                            - innerHTML (per fare vedere quello che ce dentro dell tag dell html)
 
 */
 
@@ -36,8 +40,13 @@ const user_last_name = prompt ('Quale é il tuo cognome?');
 const user_color = prompt ('Quale é il tuo colore preferito?');
 
 
+
+const password = user_name + user_last_name + user_color + '23';
+
+/*console.log(user_name, user_last_name, user_color, 23);*/
+
+console.log(password);
+
 //Infine scrivi sulla pagina nomecognomecolorepreferito23
 
-
-
-console.log(user_name, user_last_name, user_color);
+document.getElementById('password').innerHTML = password;
